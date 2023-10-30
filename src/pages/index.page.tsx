@@ -1,4 +1,4 @@
-import { t, Trans } from '@lingui/macro'
+import { Plural, t, Trans } from '@lingui/macro'
 
 import path from 'path'
 import { GetStaticProps, NextPage } from 'next'
@@ -72,6 +72,12 @@ const Index: NextPage = () => {
           <AboutText />
         </div>
         <Developers />
+
+        <div>
+          <Plural value={1} one={'# Person'} other={`# Persons`} />
+          <br />
+          <Plural value={2} one={'# Person'} other={`# Persons`} />
+        </div>
       </main>
     </div>
   )

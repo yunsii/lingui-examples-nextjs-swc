@@ -13,6 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/pages/index.page.tsx:77
+#: src/pages/index.page.tsx:78
+msgid "{0, plural, one {# Person} other {# Persons}}"
+msgstr "{0, plural, one {# ES Person} other {# ES Persons}}"
+
 #: src/pages/index.page.tsx:62
 msgid "<0>Next.js</0>say hi."
 msgstr "ES <0>Next.js</0>say hi."
