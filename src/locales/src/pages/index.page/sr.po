@@ -13,8 +13,8 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/index.page.tsx:77
-#: src/pages/index.page.tsx:78
+#: src/pages/index.page.tsx:83
+#: src/pages/index.page.tsx:85
 msgid "{0, plural, one {# Person} other {# Persons}}"
 msgstr ""
 
@@ -49,4 +49,8 @@ msgstr ""
 
 #: src/pages/index.page.tsx:67
 msgid "Wonderful framework <0>Next.js</0>say hi."
+msgstr ""
+
+#: src/pages/index.page.tsx:72
+msgid "Wonderful framework <0>Next.js</0>say hi. And <1>Next.js</1>say hi."
 msgstr ""

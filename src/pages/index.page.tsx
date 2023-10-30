@@ -68,6 +68,12 @@ const Index: NextPage = () => {
             Wonderful framework <a href="https://nextjs.org">Next.js</a> say hi.
           </Trans>
         </h2>
+        <h2>
+          <Trans>
+            Wonderful framework <a href="https://nextjs.org">Next.js</a> say hi.
+            And <a href="https://nextjs.org">Next.js</a> say hi.
+          </Trans>
+        </h2>
         <div className={styles.description}>
           <AboutText />
         </div>
