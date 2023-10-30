@@ -3,6 +3,8 @@ import { Trans } from '@lingui/macro'
 export function AboutText() {
   return (
     <p>
+      <Trans>Hello, world</Trans>
+      <br />
       <Trans id="message.next-explanation">
         Next.js is an open-source React front-end development web framework that
         enables functionality such as server-side rendering and generating
