@@ -1,4 +1,6 @@
 import { t, Trans } from '@lingui/macro'
+
+import path from 'path'
 import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import { AboutText } from '../components/AboutText'
@@ -9,7 +11,16 @@ import { loadCatalog } from '../utils'
 import { useLingui } from '@lingui/react'
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
-  const translation = await loadCatalog(ctx.locale!)
+  const fileName = __filename
+  const cwd = process.cwd()
+  const { locale } = ctx
+
+  const pathname = path
+    .relative(cwd, fileName)
+    .replace('.next/server/pages/', '')
+    .replace('.js', '')
+
+  const translation = await loadCatalog(locale || 'en', pathname)
   return {
     props: {
       translation
@@ -43,6 +54,20 @@ const Index: NextPage = () => {
             Welcome to <a href="https://nextjs.org">Next.js!</a>
           </Trans>
         </h1>
+        <h2>
+          <Trans>Plain text</Trans>
+        </h2>
+        <h2>{t`Plain text`}</h2>
+        <h2>
+          <Trans>
+            <a href="https://nextjs.org">Next.js</a> say hi.
+          </Trans>
+        </h2>
+        <h2>
+          <Trans>
+            Wonderful framework <a href="https://nextjs.org">Next.js</a> say hi.
+          </Trans>
+        </h2>
         <div className={styles.description}>
           <AboutText />
         </div>

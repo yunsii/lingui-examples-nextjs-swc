@@ -6,10 +6,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/index.tsx:61
+msgid "<0>Next.js</0>say hi."
+msgstr "<0>Next.js</0>say hi."
 
 #: src/components/Switcher.tsx:10
 msgid "English"
 msgstr "English"
+
+#: src/pages/index.tsx:58
+msgid "Plain text"
+msgstr "Plain text"
 
 #: src/components/Switcher.tsx:11
 msgid "Serbian"
@@ -19,10 +33,14 @@ msgstr "Serbian"
 msgid "Spanish"
 msgstr "Spanish"
 
-#: src/pages/index.tsx:35
+#: src/pages/index.tsx:46
 msgid "Translation Demo"
 msgstr "Translation Demo"
 
-#: src/pages/index.tsx:42
+#: src/pages/index.tsx:53
 msgid "Welcome to <0>Next.js!</0>"
 msgstr "Welcome to <0>Next.js!</0>"
+
+#: src/pages/index.tsx:66
+msgid "Wonderful framework <0>Next.js</0>say hi."
+msgstr "Wonderful framework <0>Next.js</0>say hi."
