@@ -7,7 +7,7 @@ export async function loadCatalog(locale: string, pathname: string) {
     return {}
   }
   const catalog = await import(
-    `@lingui/loader!./locales/src/pages/${pathname}/${locale}.po`
+    `@lingui/loader!./locales/src/pages/${pathname}.page/${locale}.po`
   )
   return catalog.messages
 }

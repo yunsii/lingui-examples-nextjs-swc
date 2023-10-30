@@ -13,9 +13,10 @@ module.exports = {
     extractor: {
       // glob pattern of entrypoints
       // this will find all nextjs pages
-      entries: ['<rootDir>/src/pages/**/*.tsx'],
+      entries: ['<rootDir>/src/pages/**/*.page.tsx'],
       // output pattern, this instruct extractor where to store catalogs
       output: '<rootDir>/src/locales/{entryDir}/{entryName}/{locale}'
     }
-  }
+  },
+  format: 'po'
 }
