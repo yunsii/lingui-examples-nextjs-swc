@@ -13,12 +13,12 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/index.page.tsx:83
-#: src/pages/index.page.tsx:85
+#: src/pages/index.page.tsx:87
+#: src/pages/index.page.tsx:89
 msgid "{0, plural, one {# Person} other {# Persons}}"
 msgstr ""
 
-#: src/pages/index.page.tsx:62
+#: src/pages/index.page.tsx:66
 msgid "<0>Next.js</0>say hi."
 msgstr ""
 
@@ -26,8 +26,8 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: src/pages/index.page.tsx:58
-#: src/pages/index.page.tsx:60
+#: src/pages/index.page.tsx:62
+#: src/pages/index.page.tsx:64
 msgid "Plain text"
 msgstr ""
 
@@ -39,18 +39,18 @@ msgstr ""
 msgid "Spanish"
 msgstr ""
 
-#: src/pages/index.page.tsx:46
+#: src/pages/index.page.tsx:50
 msgid "Translation Demo"
 msgstr ""
 
-#: src/pages/index.page.tsx:53
+#: src/pages/index.page.tsx:57
 msgid "Welcome to <0>Next.js!</0>"
 msgstr ""
 
-#: src/pages/index.page.tsx:67
+#: src/pages/index.page.tsx:71
 msgid "Wonderful framework <0>Next.js</0>say hi."
 msgstr ""
 
-#: src/pages/index.page.tsx:72
+#: src/pages/index.page.tsx:76
 msgid "Wonderful framework <0>Next.js</0>say hi. And <1>Next.js</1>say hi."
 msgstr ""

@@ -9,6 +9,7 @@ import { Switcher } from '../components/Switcher'
 import styles from '../styles/Index.module.css'
 import { loadCatalog } from '../utils'
 import { useLingui } from '@lingui/react'
+import { curringFoo } from '../helpers/currying'
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const fileName = __filename
@@ -34,6 +35,9 @@ const Index: NextPage = () => {
    * component for changes if you use t`` macro
    */
   useLingui()
+
+  const result = curringFoo()()
+  console.log('curringFoo', result)
 
   return (
     <div className={styles.container}>
