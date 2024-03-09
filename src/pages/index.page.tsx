@@ -39,9 +39,9 @@ const Index: NextPage = () => {
     <div className={styles.container}>
       <Head>
         {/*
-         The Next Head component is not being rendered in the React
-         component tree and React Context is not being passed down to the components placed in the <Head>.
-         That means we cannot use the <Trans> component here and instead have to use `t` macro.
+          The Next Head component is not being rendered in the React
+          component tree and React Context is not being passed down to the components placed in the <Head>.
+          That means we cannot use the <Trans> component here and instead have to use `t` macro.
         */}
         <title>{t`Translation Demo`}</title>
         <link rel="icon" href="/favicon.ico" />
