@@ -13,12 +13,20 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/index.page.tsx:87
-#: src/pages/index.page.tsx:89
+#: src/pages/index.page.tsx:90
+#: src/pages/index.page.tsx:92
 msgid "{0, plural, one {# Person} other {# Persons}}"
 msgstr "{0, plural, one {# ES Person} other {# ES Persons}}"
 
-#: src/pages/index.page.tsx:66
+#: src/pages/index.page.tsx:53
+#~ msgid "{foo} Hello"
+#~ msgstr ""
+
+#: src/components/Developers.tsx:20
+msgid "{selected, plural, one {Developer} other {Developers}}"
+msgstr ""
+
+#: src/pages/index.page.tsx:69
 msgid "<0>Next.js</0>say hi."
 msgstr "ES <0>Next.js</0>say hi."
 
@@ -26,10 +34,31 @@ msgstr "ES <0>Next.js</0>say hi."
 msgid "English"
 msgstr "ES English"
 
-#: src/pages/index.page.tsx:62
-#: src/pages/index.page.tsx:64
+#: src/pages/index.page.tsx:54
+msgid "Hello {bar bar}"
+msgstr ""
+
+#: src/pages/index.page.tsx:53
+msgid "Hello {foo}"
+msgstr ""
+
+#: src/components/AboutText.tsx:6
+msgid "Hello, world"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/AboutText.tsx:8
+msgid "message.next-explanation"
+msgstr ""
+
+#: src/pages/index.page.tsx:65
+#: src/pages/index.page.tsx:67
 msgid "Plain text"
 msgstr "ES Plain text"
+
+#: src/components/Developers.tsx:9
+msgid "Plural Test: How many developers?"
+msgstr ""
 
 #: src/components/Switcher.tsx:11
 msgid "Serbian"
@@ -39,18 +68,18 @@ msgstr "ES Serbian"
 msgid "Spanish"
 msgstr "ES Spanish"
 
-#: src/pages/index.page.tsx:50
+#: src/pages/index.page.tsx:51
 msgid "Translation Demo"
 msgstr "ES Translation Demo"
 
-#: src/pages/index.page.tsx:57
+#: src/pages/index.page.tsx:60
 msgid "Welcome to <0>Next.js!</0>"
 msgstr "ES Welcome to <0>Next.js!</0>"
 
-#: src/pages/index.page.tsx:71
+#: src/pages/index.page.tsx:74
 msgid "Wonderful framework <0>Next.js</0>say hi."
 msgstr "ES Wonderful framework <0>Next.js</0>say hi."
 
-#: src/pages/index.page.tsx:76
+#: src/pages/index.page.tsx:79
 msgid "Wonderful framework <0>Next.js</0>say hi. And <1>Next.js</1>say hi."
 msgstr "ES Wonderful framework <0>Next.js</0>say hi. And <1>Next.js</1>say hi."

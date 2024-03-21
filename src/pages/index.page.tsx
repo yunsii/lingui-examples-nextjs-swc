@@ -10,6 +10,7 @@ import styles from '../styles/Index.module.css'
 import { loadCatalog } from '../utils'
 import { useLingui } from '@lingui/react'
 import { curringFoo } from '../helpers/currying'
+import { Test } from '../constants'
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const fileName = __filename
@@ -36,8 +37,8 @@ const Index: NextPage = () => {
    */
   useLingui()
 
-  const result = curringFoo()()
-  console.log('curringFoo', result)
+  const result = curringFoo()
+  console.log('curringFoo', result())
 
   return (
     <div className={styles.container}>
@@ -49,6 +50,8 @@ const Index: NextPage = () => {
         */}
         <title>{t`Translation Demo`}</title>
         <link rel="icon" href="/favicon.ico" />
+        <div>{t`Hello ${Test.Foo}`}</div>
+        <div>{t`Hello ${Test.Bar}`}</div>
       </Head>
 
       <main className={styles.main}>
