@@ -11,16 +11,16 @@
     "test": "npm run build"
   },
   "dependencies": {
-    "@lingui/core": "^4.8.0-next.1",
-    "@lingui/react": "^4.8.0-next.1",
+    "@lingui/core": "5.0.0-next.0",
+    "@lingui/react": "5.0.0-next.0",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@lingui/cli": "^4.8.0-next.1",
-    "@lingui/loader": "^4.8.0-next.1",
-    "@lingui/macro": "^4.8.0-next.1",
+    "@lingui/cli": "5.0.0-next.0",
+    "@lingui/loader": "5.0.0-next.0",
+    "@lingui/macro": "5.0.0-next.0",
     "@lingui/swc-plugin": "^4.0.4",
     "@types/react": "^18.0.14",
     "eslint": "8.35.0",
