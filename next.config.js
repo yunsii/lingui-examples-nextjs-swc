@@ -6,8 +6,8 @@ module.exports = {
     locales: ['en', 'sr', 'es', 'pseudo'],
     defaultLocale: 'en'
   },
-  pageExtensions: ['page.tsx'],
-  experimental: {
-    swcPlugins: [['@lingui/swc-plugin', {}]]
-  }
+  pageExtensions: ['page.tsx']
+  // experimental: {
+  //   swcPlugins: [['@lingui/swc-plugin', {}]]
+  // }
 }

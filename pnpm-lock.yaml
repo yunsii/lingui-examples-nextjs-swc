@@ -15,10 +15,10 @@ dependencies:
     version: 5.0.0-next.0(@lingui/babel-plugin-lingui-macro@5.0.0-next.0)(babel-plugin-macros@3.1.0)
   '@lingui/react':
     specifier: 5.0.0-next.0
-    version: 5.0.0-next.0(react@18.2.0)
+    version: 5.0.0-next.0(babel-plugin-macros@3.1.0)(react@18.2.0)
   next:
     specifier: 13.4.12
-    version: 13.4.12(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.2.0)
+    version: 13.4.12(@babel/core@7.23.2)(babel-plugin-macros@3.1.0)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -35,13 +35,16 @@ devDependencies:
     version: 5.0.0-next.0(typescript@4.9.5)(webpack@5.89.0)
   '@lingui/macro':
     specifier: 5.0.0-next.0
-    version: 5.0.0-next.0(react@18.2.0)
+    version: 5.0.0-next.0(babel-plugin-macros@3.1.0)(react@18.2.0)
   '@lingui/swc-plugin':
-    specifier: ^4.0.4
-    version: 4.0.4(@lingui/macro@5.0.0-next.0)(next@13.4.12)
+    specifier: 4.0.5
+    version: 4.0.5(@lingui/macro@5.0.0-next.0)(next@13.4.12)
   '@types/react':
     specifier: ^18.0.14
     version: 18.2.33
+  babel-plugin-macros:
+    specifier: ^3.1.0
+    version: 3.1.0
   eslint:
     specifier: 8.35.0
     version: 8.35.0
@@ -664,7 +667,7 @@ packages:
       - typescript
     dev: true
 
-  /@lingui/macro@5.0.0-next.0(react@18.2.0):
+  /@lingui/macro@5.0.0-next.0(babel-plugin-macros@3.1.0)(react@18.2.0):
     resolution: {integrity: sha512-tW3EMDoIDbQDCe5KlIvj77dsSH49x3kCpCf+6rRL5o4wCRY6P6q/8JKnpmP0zYa0R2mNzhdnPBOeAe0x2OWAzg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -677,7 +680,8 @@ packages:
         optional: true
     dependencies:
       '@lingui/core': 5.0.0-next.0(@lingui/babel-plugin-lingui-macro@5.0.0-next.0)(babel-plugin-macros@3.1.0)
-      '@lingui/react': 5.0.0-next.0(react@18.2.0)
+      '@lingui/react': 5.0.0-next.0(babel-plugin-macros@3.1.0)(react@18.2.0)
+      babel-plugin-macros: 3.1.0
     transitivePeerDependencies:
       - react
     dev: true
@@ -689,7 +693,7 @@ packages:
       '@messageformat/parser': 5.1.0
       js-sha256: 0.10.1
 
-  /@lingui/react@5.0.0-next.0(react@18.2.0):
+  /@lingui/react@5.0.0-next.0(babel-plugin-macros@3.1.0)(react@18.2.0):
     resolution: {integrity: sha512-lktk4uAAQmw40Muo1xHGvpNAKbHwL3lG+K/rQpHxN5ZRZAfNoXjtOUOxN+mDqspPzQ5JEiO2IrjjLjGnd+Hnkg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -704,10 +708,11 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.2
       '@lingui/core': 5.0.0-next.0(@lingui/babel-plugin-lingui-macro@5.0.0-next.0)(babel-plugin-macros@3.1.0)
+      babel-plugin-macros: 3.1.0
       react: 18.2.0
 
-  /@lingui/swc-plugin@4.0.4(@lingui/macro@5.0.0-next.0)(next@13.4.12):
-    resolution: {integrity: sha512-xRnR96Mqi6zwGlVfGJMfoM8QykBbUz/sSnwmcFL9BZ8Y9YBZxzLAVf4t1BbiIQsAs+pMYu/HfujTBD4y/r1ucA==}
+  /@lingui/swc-plugin@4.0.5(@lingui/macro@5.0.0-next.0)(next@13.4.12):
+    resolution: {integrity: sha512-ZQmAsxbEkrPCDnHT31ExlA6YEukp+ScHZu4FQVDdV7H6FI1pNQJSMGBChHXwGjQNQvD6YlZb4BV5ZWXv/nu/2Q==}
     peerDependencies:
       '@lingui/macro': '4'
       '@swc/core': '*'
@@ -718,8 +723,8 @@ packages:
       next:
         optional: true
     dependencies:
-      '@lingui/macro': 5.0.0-next.0(react@18.2.0)
-      next: 13.4.12(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.2.0)
+      '@lingui/macro': 5.0.0-next.0(babel-plugin-macros@3.1.0)(react@18.2.0)
+      next: 13.4.12(@babel/core@7.23.2)(babel-plugin-macros@3.1.0)(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
   /@messageformat/parser@5.1.0:
@@ -2851,7 +2856,7 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /next@13.4.12(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.2.0):
+  /next@13.4.12(@babel/core@7.23.2)(babel-plugin-macros@3.1.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-eHfnru9x6NRmTMcjQp6Nz0J4XH9OubmzOa7CkWL+AUrUxpibub3vWwttjduu9No16dug1kq04hiUUpo7J3m3Xw==}
     engines: {node: '>=16.8.0'}
     hasBin: true
@@ -2876,7 +2881,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(@babel/core@7.23.2)(react@18.2.0)
+      styled-jsx: 5.1.1(@babel/core@7.23.2)(babel-plugin-macros@3.1.0)(react@18.2.0)
       watchpack: 2.4.0
       zod: 3.21.4
     optionalDependencies:
@@ -3497,7 +3502,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-jsx@5.1.1(@babel/core@7.23.2)(react@18.2.0):
+  /styled-jsx@5.1.1(@babel/core@7.23.2)(babel-plugin-macros@3.1.0)(react@18.2.0):
     resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -3511,6 +3516,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.23.2
+      babel-plugin-macros: 3.1.0
       client-only: 0.0.1
       react: 18.2.0
 

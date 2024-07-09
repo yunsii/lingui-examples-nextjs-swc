@@ -1,5 +1,5 @@
-import { t } from "@lingui/core/macro";
-import { Plural, Trans } from "@lingui/react/macro";
+import { t } from '@lingui/core/macro'
+import { Plural, Trans } from '@lingui/react/macro'
 
 import path from 'path'
 import { GetStaticProps, NextPage } from 'next'
@@ -50,10 +50,11 @@ const Index: NextPage = () => {
           That means we cannot use the <Trans> component here and instead have to use `t` macro.
         */}
         <title>{t`Translation Demo`}</title>
+        <meta name="description" content={t`Index Page Description`} />
         <link rel="icon" href="/favicon.ico" />
-        <div>{t`Hello ${Test.Foo}`}</div>
-        <div>{t`Hello ${Test.Bar}`}</div>
       </Head>
+      <div>{t`Hello ${Test.Foo}`}</div>
+      <div>{t`Hello ${Test.Bar}`}</div>
 
       <main className={styles.main}>
         <Switcher />
