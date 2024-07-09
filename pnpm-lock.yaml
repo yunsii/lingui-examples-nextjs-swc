@@ -37,8 +37,8 @@ devDependencies:
     specifier: 5.0.0-next.0
     version: 5.0.0-next.0(babel-plugin-macros@3.1.0)(react@18.2.0)
   '@lingui/swc-plugin':
-    specifier: 4.0.5
-    version: 4.0.5(@lingui/macro@5.0.0-next.0)(next@13.4.12)
+    specifier: 4.0.4
+    version: 4.0.4(@lingui/macro@5.0.0-next.0)(next@13.4.12)
   '@types/react':
     specifier: ^18.0.14
     version: 18.2.33
@@ -711,8 +711,8 @@ packages:
       babel-plugin-macros: 3.1.0
       react: 18.2.0
 
-  /@lingui/swc-plugin@4.0.5(@lingui/macro@5.0.0-next.0)(next@13.4.12):
-    resolution: {integrity: sha512-ZQmAsxbEkrPCDnHT31ExlA6YEukp+ScHZu4FQVDdV7H6FI1pNQJSMGBChHXwGjQNQvD6YlZb4BV5ZWXv/nu/2Q==}
+  /@lingui/swc-plugin@4.0.4(@lingui/macro@5.0.0-next.0)(next@13.4.12):
+    resolution: {integrity: sha512-xRnR96Mqi6zwGlVfGJMfoM8QykBbUz/sSnwmcFL9BZ8Y9YBZxzLAVf4t1BbiIQsAs+pMYu/HfujTBD4y/r1ucA==}
     peerDependencies:
       '@lingui/macro': '4'
       '@swc/core': '*'
