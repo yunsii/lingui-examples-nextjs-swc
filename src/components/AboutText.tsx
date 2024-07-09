@@ -4,6 +4,7 @@ export function AboutText() {
   return (
     <p>
       <Trans>Hello, world</Trans>
+      <Trans key="test">Once again</Trans>
       <br />
       <Trans id="message.next-explanation">
         Next.js is an open-source React front-end development web framework that

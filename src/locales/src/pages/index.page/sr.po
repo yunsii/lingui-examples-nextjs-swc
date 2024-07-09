@@ -48,8 +48,12 @@ msgid "Index Page Description"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/components/AboutText.tsx:8
+#: src/components/AboutText.tsx:9
 msgid "message.next-explanation"
+msgstr ""
+
+#: src/components/AboutText.tsx:7
+msgid "Once again"
 msgstr ""
 
 #: src/pages/index.page.tsx:67

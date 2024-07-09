@@ -48,9 +48,13 @@ msgid "Index Page Description"
 msgstr "Index Page Description"
 
 #. js-lingui-explicit-id
-#: src/components/AboutText.tsx:8
+#: src/components/AboutText.tsx:9
 msgid "message.next-explanation"
 msgstr "Next.js is an open-source React front-end development web framework that enables functionality such as server-side rendering and generating static websites for React based web applications. It is a production-ready framework that allows developers to quickly create static and dynamic JAMstack websites and is used widely by many large companies."
+
+#: src/components/AboutText.tsx:7
+msgid "Once again"
+msgstr "Once again"
 
 #: src/pages/index.page.tsx:67
 #: src/pages/index.page.tsx:69
