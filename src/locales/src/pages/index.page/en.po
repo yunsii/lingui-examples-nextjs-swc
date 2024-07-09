@@ -13,34 +13,31 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/index.page.tsx:90
-#: src/pages/index.page.tsx:92
+#. placeholder {0}: 1
+#. placeholder {0}: 2
+#: src/pages/index.page.tsx:91
+#: src/pages/index.page.tsx:93
 msgid "{0, plural, one {# Person} other {# Persons}}"
 msgstr "{0, plural, one {# Person} other {# Persons}}"
-
-#: src/pages/index.page.tsx:53
-#~ msgid "{foo} Hello"
-#~ msgstr "{foo} Hello"
 
 #: src/components/Developers.tsx:20
 msgid "{selected, plural, one {Developer} other {Developers}}"
 msgstr "{selected, plural, one {Developer} other {Developers}}"
 
-#: src/pages/index.page.tsx:69
-msgid "<0>Next.js</0>say hi."
-msgstr "<0>Next.js</0>say hi."
+#: src/pages/index.page.tsx:70
+msgid "<0>Next.js</0> say hi."
+msgstr "<0>Next.js</0> say hi."
 
 #: src/components/Switcher.tsx:10
 msgid "English"
 msgstr "English"
 
+#. placeholder {0}: "foo"
+#. placeholder {0}: "bar bar"
 #: src/pages/index.page.tsx:54
-msgid "Hello {bar bar}"
-msgstr "Hello {bar bar}"
-
-#: src/pages/index.page.tsx:53
-msgid "Hello {foo}"
-msgstr "Hello {foo}"
+#: src/pages/index.page.tsx:55
+msgid "Hello {0}"
+msgstr "Hello {0}"
 
 #: src/components/AboutText.tsx:6
 msgid "Hello, world"
@@ -51,8 +48,8 @@ msgstr "Hello, world"
 msgid "message.next-explanation"
 msgstr "Next.js is an open-source React front-end development web framework that enables functionality such as server-side rendering and generating static websites for React based web applications. It is a production-ready framework that allows developers to quickly create static and dynamic JAMstack websites and is used widely by many large companies."
 
-#: src/pages/index.page.tsx:65
-#: src/pages/index.page.tsx:67
+#: src/pages/index.page.tsx:66
+#: src/pages/index.page.tsx:68
 msgid "Plain text"
 msgstr "Plain text"
 
@@ -68,18 +65,18 @@ msgstr "Serbian"
 msgid "Spanish"
 msgstr "Spanish"
 
-#: src/pages/index.page.tsx:51
+#: src/pages/index.page.tsx:52
 msgid "Translation Demo"
 msgstr "Translation Demo"
 
-#: src/pages/index.page.tsx:60
+#: src/pages/index.page.tsx:61
 msgid "Welcome to <0>Next.js!</0>"
 msgstr "Welcome to <0>Next.js!</0>"
 
-#: src/pages/index.page.tsx:74
-msgid "Wonderful framework <0>Next.js</0>say hi."
-msgstr "Wonderful framework <0>Next.js</0>say hi."
+#: src/pages/index.page.tsx:75
+msgid "Wonderful framework <0>Next.js</0> say hi."
+msgstr "Wonderful framework <0>Next.js</0> say hi."
 
-#: src/pages/index.page.tsx:79
-msgid "Wonderful framework <0>Next.js</0>say hi. And <1>Next.js</1>say hi."
-msgstr "Wonderful framework <0>Next.js</0>say hi. And <1>Next.js</1>say hi."
+#: src/pages/index.page.tsx:80
+msgid "Wonderful framework <0>Next.js</0> say hi. And <1>Next.js</1> say hi."
+msgstr "Wonderful framework <0>Next.js</0> say hi. And <1>Next.js</1> say hi."

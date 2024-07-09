@@ -1,5 +1,5 @@
+import { Trans, Plural } from "@lingui/react/macro";
 import { useState } from 'react'
-import { Trans, Plural } from '@lingui/macro'
 
 export default function Developers() {
   const [selected, setSelected] = useState('1')

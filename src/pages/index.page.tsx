@@ -1,4 +1,5 @@
-import { Plural, t, Trans } from '@lingui/macro'
+import { t } from "@lingui/core/macro";
+import { Plural, Trans } from "@lingui/react/macro";
 
 import path from 'path'
 import { GetStaticProps, NextPage } from 'next'
