@@ -1,0 +1,13 @@
+diff --git a/dist/extract-experimental/linguiEsbuildPlugin.js b/dist/extract-experimental/linguiEsbuildPlugin.js
+index 3172f8ee49b43c5cffbc3c8ed749f73a2cbd4d2f..d1478072e815c8ec304c137207962ff4ce4badcd 100644
+--- a/dist/extract-experimental/linguiEsbuildPlugin.js
++++ b/dist/extract-experimental/linguiEsbuildPlugin.js
+@@ -38,7 +38,7 @@ const pluginLinguiMacro = (options) => ({
+                     ],
+                 ],
+             });
+-            return { contents: result.code, loader: "jsx" };
++            return { contents: result.code, loader: "tsx" };
+         });
+     },
+ });

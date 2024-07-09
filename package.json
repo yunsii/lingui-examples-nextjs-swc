@@ -27,5 +27,10 @@
     "eslint-config-next": "12.3.4",
     "typescript": "^4.7.4"
   },
-  "packageManager": "pnpm@8.9.2"
+  "packageManager": "pnpm@8.9.2",
+  "pnpm": {
+    "patchedDependencies": {
+      "@lingui/cli@5.0.0-next.0": "patches/@lingui__cli@5.0.0-next.0.patch"
+    }
+  }
 }
